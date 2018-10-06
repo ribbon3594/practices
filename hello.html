@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript&Html</title>
+  </head>
+  <body>
+
+    <button style="width:77px;height:77px">
+<img src='D:\download\hyemin.jpg'>
+</button>
+    <h2><input type ="button" value="눌러봐" onclick="
+   alert('혜민아 힘내');
+    "></h2>
+
+  <input type="button" value="change the tytle color" onclick="
+if(document.querySelector('body').style.backgroundColor==='black'){
+  document.querySelector('#h1').style.color='blue';
+}else{
+  document.querySelector('#h1').style.color='black';
+}
+  ">
+    <h1 id="h1">hello</h1>
+<input type="button" value="night" onclick="
+  var Ace =document.querySelector('body');
+if(this.value==='night'){
+  Ace.style.backgroundColor='black';
+  Ace.style.color='white';
+  this.value='day';
+}else{
+  Ace.style.backgroundColor='white';
+  Ace.style.color='black';
+  this.value='night';
+}
+">
+<input id="hello" type="text" name="log in" >
+<input type="button" value="submit" onclick="
+  if(document.querySelector('#hello').value==='ribbon3594'){
+    alert('hello');
+  }else{
+    alert('it is not right');
+
+  }
+">
+    <p>
+      helloは　人の間に会った時挨拶する言葉です。韓国では안녕とか안녕하세요という。
+      日本語では、朝におはようございます、昼にこんにちは夜にはこんばんはです。
+    </p>
+
+
+  </body>
+</html>
