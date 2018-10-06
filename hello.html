@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <meta charset="utf-8">
     <title>힘내라 유혜민</title>
   </head>
@@ -21,8 +22,21 @@ if(document.querySelector('body').style.backgroundColor==='black'){
   document.querySelector('#h1').style.color='black';
 }
   ">
+<style>
+#night{
+  background-color: red;
 
-<input type="button" value="night" onclick="
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.1px
+  text-shadow: 0px -3px rgba(0, 0, 0, 0.44);
+   font-family: 'Lobster', cursive;
+}
+#night:active{transform: translateY(5px);}
+</style>
+<input id="night" type="button" value="night" onclick="
   var Ace =document.querySelector('body');
 if(this.value==='night'){
   Ace.style.backgroundColor='black';
